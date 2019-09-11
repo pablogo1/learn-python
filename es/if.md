@@ -28,6 +28,37 @@ El siguiente diagrama de flujo muestra como se comporta este:
 
 ![alt text][if-1]
 
+## Sentencia `if-else`
+Tal como se explicó al inicio de esta sección, permite ejecutar de forma condicionada dos bloques de código diferentes. Ya sea *Bloque 1* cuando la `condicion` sea `True` **o** *Bloque 2* cuando la `condicion` sea `False`.
+
+```python
+if condicion:
+    # Bloque 1
+else:
+    # Bloque 2
+```
+
+El siguiente diagrama de flujo muestra como se comporta este:
+
+![alt text][if-2]
+
+## Sentencia `if-elif-else`
+Esta forma de la sentencia `if` permite evaluar un sin-fin de condiciones y ejecutar el código especificado por condición. Opcionalmente, puede ejecutarse una *alternativa* si es que ninguna de las condiciones especificadas se cumplió.
+
+```python
+if condicion:
+    # Bloque 1
+elif condicion_1:
+    # Bloque 2
+elif condicion_2:
+    # Bloque 3
+else:
+    # Alternativa
+```
+El siguiente diagrama de flujo muestra como se comporta este:
+
+![alt text][if-3]
+
 [if-else]: ../img/if-else.png "if-else block"
 [if-1]: ../img/if-1.png "Simple if block"
 [if-2]: ../img/if-2.png "Simple if/else block"
