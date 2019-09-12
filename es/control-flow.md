@@ -32,9 +32,9 @@ print ('3. Agua')
 eleccion = int(raw_input()) # Lee el número que ingresa el usuario por medio de un teclado
 if eleccion == 1:
     print ('Preparando un café...')
-elif eleccion == 2
+elif eleccion == 2:
     print ('Despachando una coca...')
-elif eleccion == 3
+elif eleccion == 3:
     print ('Sirviendo un vaso de agua...')
 else:
     print ('Elección no válida.')
